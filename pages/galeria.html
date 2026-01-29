@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de Proyectos | Lindblad Solution</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Galería de proyectos de iluminación LED de Lindblad Solution. Alumbrado público, obras municipales y soluciones de iluminación profesional.">
+    <meta name="keywords" content="iluminación LED, galería de proyectos, alumbrado público, luminarias municipales, obras públicas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1e293b;
+            font-weight: 600;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 70px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #0f172a;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 14px rgba(0,0,0,.1);
+            transition: transform .2s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .gallery-caption {
+            padding: 15px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+            margin-top: 80px;
+        }
+
+        footer a {
+            color: #9dc1ff;
+            text-decoration: none;
+        }
+
+        /* WhatsApp */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: white;
+            padding: 16px 18px;
+            border-radius: 50%;
+            font-size: 22px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galería de Proyectos</h1>
+    <p>
+        Trabajos de iluminación LED realizados para municipios,
+        obras públicas y espacios urbanos.
+    </p>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="../index.html#servicios">Servicios</a>
+    <a href="../index.html#catalogo">Catálogo</a>
+    <a href="galeria.html">Galería</a>
+    <a href="empresa.html">Empresa</a>
+</nav>
+
+<section>
+    <h2>Iluminación urbana y municipal</h2>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="../assets/img/galeria/iluminacion-urbana-01.jpg"
+                 alt="Iluminación LED en calles municipales">
+            <div class="gallery-caption">
+                Iluminación LED urbana en vía pública
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="../assets/img/galeria/luminaria-led-municipal.jpg"
+                 alt="Luminarias LED instaladas en municipio">
+            <div class="gallery-caption">
+                Luminarias LED para municipios
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="../assets/img/galeria/obra-publica-led.jpg"
+                 alt="Obra pública con iluminación LED">
+            <div class="gallery-caption">
+                Proyecto de obra pública con iluminación LED
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="../assets/img/galeria/evento-iluminado-led.jpg"
+                 alt="Iluminación LED en evento municipal">
+            <div class="gallery-caption">
+                Iluminación de eventos y espacios públicos
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Lindblad Solution</p>
+    <p>
+        Contacto:
+        <a href="mailto:escandinavia1500@gmail.com">escandinavia1500@gmail.com</a>
+    </p>
+    <p>
+        Desarrollado por
+        <a href="https://teamjsdev.github.io/" target="_blank">JSDev</a>
+    </p>
+</footer>
+
+<a class="whatsapp"
+   href="https://wa.me/5493516546292"
+   target="_blank"
+   aria-label="Contactar por WhatsApp">
+    💬
+</a>
+
+</body>
+</html>
