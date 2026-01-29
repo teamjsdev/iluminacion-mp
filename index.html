@@ -9,6 +9,7 @@
     <meta name="keywords" content="iluminación municipal, luminarias LED, iluminación urbana, municipios, obras públicas, iluminación profesional">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
@@ -119,6 +120,26 @@
             border-radius: 12px;
         }
 
+	/* CATÁLOGO */
+        .catalogo-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #1e293b;
+            color: white;
+            padding: 14px 22px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .catalogo-link i {
+            color: #ef4444;
+            font-size: 1.4rem;
+        }
+
+
         footer {
             background: #0f172a;
             color: white;
@@ -164,7 +185,9 @@
     <a href="#quienes">Quiénes somos</a>
     <a href="#servicios">Servicios</a>
     <a href="#proyectos">Proyectos</a>
-    <a href="empresa.html">Empresa</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="pages/web_construccion.html">Galería</a>
+    <a href="pages/empresa.html">Empresa</a>
 </nav>
 
 <section id="quienes">
@@ -217,6 +240,23 @@
                 y soporte técnico especializado.
             </p>
         </div>
+    </div>
+</section>
+
+<section id="catalogo">
+    <h2>📄 Catálogo de Productos</h2>
+    <div class="card">
+        <p>
+            Accedé a nuestro catálogo completo de luminarias LED para
+            alumbrado público, municipal y proyectos especiales.
+        </p>
+
+        <a href="assets/pdf/catalogo-luminarias-led.pdf"
+           target="_blank"
+           class="catalogo-link">
+            <i class="fas fa-file-pdf"></i>
+            Descargar catálogo PDF
+        </a>
     </div>
 </section>
 
